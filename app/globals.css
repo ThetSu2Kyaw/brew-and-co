@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Brew & Co. design tokens */
+@import "../docs/design/tokens.css";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-black: var(--bc-black);
+  --color-charcoal: var(--bc-charcoal);
+  --color-stone-900: var(--bc-stone-900);
+  --color-stone-700: var(--bc-stone-700);
+  --color-stone-500: var(--bc-stone-500);
+  --color-stone-300: var(--bc-stone-300);
+  --color-stone-200: var(--bc-stone-200);
+  --color-stone-100: var(--bc-stone-100);
+  --color-stone-50: var(--bc-stone-50);
+  --color-white: var(--bc-white);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-espresso: var(--bc-espresso);
+  --color-espresso-light: var(--bc-espresso-light);
+  --color-amber: var(--bc-amber);
+  --color-amber-light: var(--bc-amber-light);
+  --color-amber-dark: var(--bc-amber-dark);
+  --color-cream: var(--bc-cream);
+  --color-cream-dark: var(--bc-cream-dark);
+
+  --color-sage: var(--bc-sage);
+  --color-sage-light: var(--bc-sage-light);
+  --color-sage-dark: var(--bc-sage-dark);
+  --color-copper: var(--bc-copper);
+  --color-copper-light: var(--bc-copper-light);
+
+  --color-success: var(--bc-success);
+  --color-warning: var(--bc-warning);
+  --color-error: var(--bc-error);
+  --color-info: var(--bc-info);
+
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Work Sans", "Helvetica", sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+
+  --shadow-warm: var(--bc-shadow-warm);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bc-cream);
+  color: var(--bc-espresso);
+  font-family: "Work Sans", "Helvetica", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--bc-black);
+    color: var(--bc-cream);
+  }
 }

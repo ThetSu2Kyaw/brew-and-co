@@ -13,7 +13,7 @@ const IMAGES = [
   ["https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg", "events/online-tasting", 800, 500],
   ["https://images.pexels.com/photos/302903/pexels-photo-302903.jpeg", "menu/classic-latte", 800, 500],
   ["https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg", "menu/cappuccino", 800, 500],
-  ["https://images.pexels.com/photos/15483143/pexels-photo-15483143.jpeg", "menu/flat-white", 800, 500],
+  ["https://images.pexels.com/photos/34269426/pexels-photo-34269426.jpeg", "menu/flat-white", 800, 500],
   ["https://images.pexels.com/photos/20513594/pexels-photo-20513594.jpeg", "menu/pour-over", 800, 500],
   ["https://images.pexels.com/photos/6213741/pexels-photo-6213741.jpeg", "menu/mocha", 800, 500],
   ["https://images.pexels.com/photos/33975489/pexels-photo-33975489.jpeg", "menu/americano", 800, 500],
